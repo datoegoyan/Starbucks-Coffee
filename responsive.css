@@ -1,0 +1,108 @@
+@media (max-width: 991px){
+    main section .left{
+        width: 100%;
+    }
+    button.navbar-toggler.collapsed{
+        border: none !important;
+    }
+    button.navbar-toggler.collapsed:hover{
+        background-color: #F0F0F0;
+        border-radius: 70%;
+        transition: 0.5s;
+    }
+    main section .left h1{
+        font-size: 40px !important;
+    }
+    main section .left p{
+        font-size: 22px !important ;
+    }
+     main .starbucks{
+        grid-template-columns: 1fr;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    main .starbucks .right{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+    .response :first-child{
+        order: 1  !important;
+    }
+    .upside-down :first-child{
+        order: 0 !important;
+    }
+    main .whatever{
+        grid-template-columns: 1fr;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    main .whatever .right{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+    main .flex{
+        display: inline;
+    }
+    main .half{
+        margin-bottom: 32px;
+        width: 100%;
+    }
+    main .half .top{
+        height: 65% !important;
+    }
+    main .flex .half2{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    main .flex .half2 .top{
+        height: 50%;
+    }
+    main .half .bot p{
+        font-size: 17px !important;
+    }
+    main .half2 .bot p{
+        font-size: 17px !important;
+    }
+}
+@media screen and (max-width: 1234px) {
+    main .half .bot p{
+        font-size: 15px;
+    }
+    main .half2 .bot p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1750px){
+    main .response{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1500px){
+    main .response{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1440px){
+    main .response{
+        width: 100%;
+    }
+    main footer{
+        width: 98%;
+    }
+}
+@media screen and (max-width: 1220px) {
+    main .starbucks .right img{
+        width: 610px;
+        height: 240px;
+    }
+    main .whatever .right .drinks{
+        width: 610px;
+        height: 530px;
+    }
+    main .whatever .right .stuff{
+        width: 610px !important;
+    }
+}

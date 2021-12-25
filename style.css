@@ -1,0 +1,390 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container-fluid{
+    width: 85%;
+}
+.sign{
+    margin-top: -6px;
+    border: 1px solid black;
+    font-size: 14px;
+    margin-right: 18px;
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.sign a{
+    text-decoration: none;
+    color: black;
+}
+.sign:hover{
+    background-color: #DDDDDD;
+    transition: 0.2s;
+}
+.join{
+    background-color: black;
+    margin-top: -6px;
+    font-size: 14px;
+    border: 1px solid black;
+    margin-right: 18px;
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.join a{
+    text-decoration: none;
+    color: white;
+}
+.join:hover{
+    background-color: #4C4C4C;
+    transition: 0.2s;
+}
+.find a span:hover{
+    color: #00754A;
+    transition: 0.2s;
+}
+.find .fa-map-marker-alt{
+    font-size: 20px;
+    color: black;
+}
+.find{
+    list-style: none;
+}
+.find a{
+    text-decoration: none;
+}
+.find span{
+    margin-left: 5px;
+    margin-right: 60px;
+    color: black;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+}
+.d-flex{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.navbar-brand img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav-item{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.nav-item a:hover{
+    color: #00754A !important;
+}
+main .starbucks{
+    width: 75%;
+    margin: auto;
+    height: 320px;
+    background-color: #D4E9E2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+main .starbucks .left div{
+    width: 500px;
+    margin: auto;
+}
+main .starbucks .left{
+    display: flex;
+    align-items: center;
+}
+main .starbucks .left h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1E3932;
+    letter-spacing: 7px;
+}
+main .starbucks .left p{
+    font-size: 24px;
+    color: #1E3932;
+}
+main .starbucks .left p a{
+    color: #00754A;
+}
+main .starbucks .left p a:hover{
+    text-decoration: none;
+}
+main .starbucks .right img{
+    width: 100%;
+    height: 90%;
+}
+main .whatever{
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    height: 625px;
+    width: 75%;
+}
+main .whatever1{
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    height: 420px;
+    width: 75%;
+}
+main .whatever .right img{
+    width: 100%;
+    height: 100%;
+}
+main .whatever .left h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: white;
+}
+main .whatever .left p{
+    font-size: 24px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+main .whatever .left{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+main .whatever .left div{
+    width: 500px;
+}
+main .whatever .left button{
+    margin-top: -6px;
+    border: 1px solid white;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    margin-right: 18px;
+    padding: 5px 14px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+main .whatever .left button:hover{
+    background-color: #DA1F4B;
+    transition: 0.5s;
+}
+.gap{
+    height: 32px;
+}
+main .whatever1 .left h1{
+    font-size: 24px;
+}
+main .whatever1 .left div{
+    width: 540px;
+}
+main .whatever1 .left p{
+    font-size: 19px;
+}
+main .half{
+    width: 704px;
+    height: 676px;
+    background-color: #D4E9E2;
+    margin-right: 32px;
+    color: #1E3932;
+}
+main .half2{
+    display: grid;
+    width: 704px;
+    height: 676px;
+    background-color: #D4E9E2;
+    color: #1E3932;
+}
+main .half .top img{
+    width: 100%;
+}
+main .flex{
+    display: flex;
+    justify-content: center;
+}
+main .half .bot h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+main .half .bot p{
+    font-size: 19px;
+}
+.learn-more{
+    border: 1px solid #1E3932;
+    padding: 5px 14px;
+    border-radius: 50px;
+    background-color: transparent;
+}
+.learn-more:hover{
+    background-color: #C1D7D0;
+    transition: 0.5s;
+}
+.bot{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.bot-width{
+    width: 600px;
+}
+main .half2 .top img{
+    width: 100%;
+}
+main .half2 .bot h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+main .half2 .bot p{
+    font-size: 19px;
+}
+.padding{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+main .half2 .bot p span{
+    font-weight: 700;
+}
+main footer{
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+}
+main footer div a{
+    color: #1E1E1E;
+}
+main footer div a i{
+    font-size: 32px;
+    padding: 5px;
+}
+main footer div a i:hover{
+    color: #1E1E1E;
+}
+main footer div p{
+    font-size: 14px;
+    color: gray;
+}
+main footer .privacy{
+    font-size: 16px;
+    padding-top: 25px;
+    padding-bottom: 24px;
+}
+main footer .privacy .no-padding{
+    padding-left: 0px;
+}
+main footer .privacy a{
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+}
+main footer .privacy a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+main .margin-bottom div{
+    margin-top: 50px;
+}
+main .margin-bottom div h2{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+main .signin{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+main .margin-bottom{
+    margin-bottom: 70px;
+}
+main .rewards{
+    text-align: center;
+    color: #6F6F6F;
+    font-size: 14px;
+}
+main .stars{
+    text-align: center;
+    color: #6F6F6F;
+    font-size: 14px;
+}
+main .stars a{
+    color: #6F6F6F;
+}
+main .stars a:hover{
+    text-decoration: none;
+}
+main form{
+    display: flex;
+    justify-content: center;
+}
+main form .mb-3{
+    padding-bottom: 30px;
+}
+main form .margin-0{
+    padding-bottom: 10px;
+}
+main form .form-control{
+    width: 435px;
+    height: 50px;
+    font-weight: 700;
+}
+main form .form-label{
+    font-size: 19px;
+    font-weight: 700;
+}
+main form .form-check-input{
+    width: 25px;
+    height: 25px;
+}
+main form .form-check-label{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+main form .form-check-label a{
+    margin-left: 2px;
+    color: #006241;
+    font-weight: 700;
+}
+main form .form-check-label a:hover{
+    text-decoration: none;
+}
+main form .forgot{
+    color: #006241;
+    font-weight: 700;
+    display: flex;
+}
+main form .margin{
+    margin-bottom: 30px;
+}
+main form .forgot:hover{
+    text-decoration: none;
+}
+main form .btn{
+    height: 60px;
+    width: 110px;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    background-color: #00A862;
+    margin-left: 75%;
+}
+.btn:active{
+    border: #00754A;
+}
+main form .create-account{
+    width: 170px;
+    margin-left: 0%;
+    margin-left: 61%;
+}
+main form .btn:hover{
+    color: white;
+}
+.form-check-input:checked{
+    background-color: #00754A;
+    border-color: #00754A;
+}
+.form-control:active{
+    border-color: #006241  !important;
+    outline: none;
+}
